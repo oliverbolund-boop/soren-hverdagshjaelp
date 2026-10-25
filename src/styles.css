@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:#ffffff;font-family:'Plus Jakarta Sans',system-ui,sans-serif;color:#18202B;font-size:17px;line-height:1.65}
+img,svg{max-width:100%}
+a{color:#1E3A64}a:hover{color:#3F6E1C}
+input,textarea,button{font-family:inherit}
+input:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #E9A23B;outline-offset:2px}
+[id]{scroll-margin-top:84px}
+
+.hv-btn{transition:transform .15s ease,box-shadow .15s ease,filter .15s ease}
+.hv-btn:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.hv-card{transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.hv-card:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(20,42,74,0.10) !important;border-color:#D3DBE5 !important}
+.hv-nav{transition:background-color .15s ease,color .15s ease}
+.hv-nav:hover{background:#F1F4F8 !important;color:#142A4A !important}
+.hv-row{transition:color .15s ease}
+.hv-row:hover{color:#3F6E1C !important}
+input:hover,textarea:hover{border-color:#94A3B8 !important}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .hv-btn,.hv-card,.hv-nav,.hv-row{transition:none}
+  .hv-btn:hover,.hv-card:hover{transform:none}
+}
